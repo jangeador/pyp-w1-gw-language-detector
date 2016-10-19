@@ -25,6 +25,6 @@ def detect_language(text, languages):
             valid_word_max = valid_words
             language_guess = language['name']
         
-        return language_guess
+    return language_guess
         
         
