@@ -4,7 +4,6 @@
 
 def detect_language(text, languages):
     """Returns the detected language of given text."""
-    # implement your solution here
     words = text.split()
     
     language_guess = ''
@@ -26,9 +25,6 @@ def detect_language(text, languages):
             valid_word_max = valid_words
             language_guess = language['name']
         
-        #for word in words:
-            
-            
-    return language_guess
+        return language_guess
         
         
